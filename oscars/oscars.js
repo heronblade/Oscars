@@ -48,7 +48,9 @@ if (Meteor.isServer) {
 			'The Wolf of Wall Street'
 		];
 		var info = [];
-		var img = [];
+		var img = [
+			''
+		];
 		var trailer = [];
 	}
 

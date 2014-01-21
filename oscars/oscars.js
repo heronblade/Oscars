@@ -392,11 +392,11 @@ if (Meteor.isServer) {
 			'John Williams'
 		];
 		var img = [
-			'',
-			'',
-			'',
-			'',
-			''
+			'gravity',
+			'her',
+			'philomena',
+			'saving-mr-banks',
+			'the-book-thief'
 		];
 		var trailer = [
 			'JS3DVf1U6P8',

@@ -408,11 +408,11 @@ if (Meteor.isServer) {
 	//film editing
 	if (filmEditing.find().count() == 0) {
 		var name = [
-			'"12 Years a Slave"', 
-			'"American Hustle"', 
-			'"Captain Phillips"',
-			'"Dallas Buyers Club"',
-			'"Gravity"'
+			'12 Years a Slave', 
+			'American Hustle', 
+			'Captain Phillips',
+			'Dallas Buyers Club',
+			'Gravity'
 		];
 		var info = [
 			'Joe Walker',
@@ -422,7 +422,13 @@ if (Meteor.isServer) {
 			'Alfonso Cuaron, Mark Sanger'
 		];
 		var img = [];
-		var trailer = [];
+		var trailer = [
+			'VsY2nWGkzfY',
+			'ST7a1aK_lG0',
+			'_3ASoBrFGlc',
+			'fvMPU0WaPcc',
+			'ufsrgE0BYf0'
+		];
 	}
 
 	//makeup and hairstyling

@@ -47,7 +47,17 @@ if (Meteor.isServer) {
 			'Philomena',
 			'The Wolf of Wall Street'
 		];
-		var info = [];
+		var info = [
+			'',
+			'',
+			'',
+			'',
+			'',
+			'',
+			'',
+			'',
+			''
+		];
 		var img = [
 			'12-years-a-slave',
 			'american-hustle',
@@ -81,7 +91,13 @@ if (Meteor.isServer) {
 			'Martin Scorcese - The Wolf of Wall Street',
 			'Steve McQueen - 12 Years a Slave'
 		];
-		var info = [];
+		var info = [
+			'',
+			'',
+			'',
+			'',
+			''
+		];
 		var img = [
 			'alexander-payne',
 			'alfonso-cuaron',
@@ -107,7 +123,13 @@ if (Meteor.isServer) {
 			'Leonardo DiCaprio - The Wolf of Wall Street',
 			'Matthew McConaughey - Dallas Buyers Club'
 		];
-		var info = [];
+		var info = [
+			'',
+			'',
+			'',
+			'',
+			''
+		];
 		var img = [
 			'bruce-dern',
 			'chiwetel-ejiofor',
@@ -294,7 +316,13 @@ if (Meteor.isServer) {
 			'The Croods',
 			'The Wind Rises'
 		];
-		var info = [];
+		var info = [
+			'',
+			'',
+			'',
+			'',
+			''
+		];
 		var img = [
 			'despicable-me-2',
 			'ernest-and-celestine',
@@ -480,7 +508,13 @@ if (Meteor.isServer) {
 			'The Act of Killing',
 			'The Square'
 		];
-		var info = [];
+		var info = [
+			'',
+			'',
+			'',
+			'',
+			''
+		];
 		var img = [
 			'20-feet-from-stardom',
 			'cutie-and-the-boxer',
@@ -594,7 +628,13 @@ if (Meteor.isServer) {
 			'The Hobbit: The Desolation of Smaug',
 			'The Lone Ranger'
 		];
-		var info = [];
+		var info = [
+			'',
+			'',
+			'',
+			'',
+			''
+		];
 		var img = [
 			'gravity',
 			'iron-man-3',
@@ -620,7 +660,13 @@ if (Meteor.isServer) {
 			'Lone Survivor',
 			'The Hobbit: The Desolation of Smaug'
 		];
-		var info = [];
+		var info = [
+			'',
+			'',
+			'',
+			'',
+			''
+		];
 		var img = [
 			'captain-phillips',
 			'gravity',
@@ -646,7 +692,13 @@ if (Meteor.isServer) {
 			'Lone Survivor',
 			'The Hobbit: The Desolation of Smaug'
 		];
-		var info = [];
+		var info = [
+			'',
+			'',
+			'',
+			'',
+			''
+		];
 		var img = [
 			'all-is-lost',
 			'captain-phillips',
@@ -672,7 +724,13 @@ if (Meteor.isServer) {
 			'Pitaako Mun Kaikki Hoitaa? (Do I Have to Take Care of Everything?)',
 			'The Voorman Problem'
 		];
-		var info = [];
+		var info = [
+			'',
+			'',
+			'',
+			'',
+			''
+		];
 		var img = [
 			'aquel-no-era-yo',
 			'avant-que-de-tout-perdre',
@@ -698,7 +756,13 @@ if (Meteor.isServer) {
 			'Possessions',
 			'Room on the Broom'
 		];
-		var info = [];
+		var info = [
+			'',
+			'',
+			'',
+			'',
+			''
+		];
 		var img = [
 			'feral',
 			'get-a-horse',
@@ -724,7 +788,13 @@ if (Meteor.isServer) {
 			'Prison Terminal: The Last Days of Private Jack Hall',
 			'The Lady in Number 6: Music Saved My Life'
 		];
-		var info = [];
+		var info = [
+			'',
+			'',
+			'',
+			'',
+			''
+		];
 		var img = [
 			'cave-digger',
 			'facing-fear',

@@ -173,7 +173,13 @@ if (Meteor.isServer) {
 			'Blue Jasmine'
 		];
 		var img = [];
-		var trailer = [];
+		var trailer = [
+			'NqgjPRNRDSY',
+			'9Hd_uO72h1s',
+			'UT5tqPojMtg',
+			'vUQNjfhlREk',
+			'FER3C394aI8'
+		];
 	}
 
 	//original screenplay
@@ -193,7 +199,13 @@ if (Meteor.isServer) {
 			'Bob Nelson'
 		];
 		var img = [];
-		var trailer = [];
+		var trailer = [
+			'',
+			'',
+			'',
+			'',
+			''
+		];
 	}
 
 	//adapted screenplay

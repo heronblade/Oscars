@@ -246,7 +246,13 @@ if (Meteor.isServer) {
 		];
 		var info = [];
 		var img = [];
-		var trailer = [];
+		var trailer = [
+			'HwXbtZXjbVE',
+			'UJ1rmOYLr2U',
+			'TbQm5doF_Uc',
+			'VeG3Zmk08UU',
+			'PhHoCnRg1Yw'
+		];
 	}
 
 	//foreign

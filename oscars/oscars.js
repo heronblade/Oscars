@@ -173,11 +173,11 @@ if (Meteor.isServer) {
 			'12 Years a Slave'
 		];
 		var img = [
-			'',
-			'',
-			'',
-			'',
-			''
+			'barkhad-abdi',
+			'bradley-cooper',
+			'jared-leto',
+			'jonah-hill',
+			'michael-fassbender'
 		];
 		var trailer = [
 			'TzU3UJuV80w',
@@ -205,11 +205,11 @@ if (Meteor.isServer) {
 			'Blue Jasmine'
 		];
 		var img = [
-			'',
-			'',
-			'',
-			'',
-			''
+			'jennifer-lawrence',
+			'julia-roberts',
+			'june-squibb',
+			'lupita-nyongo',
+			'sally-hawkins'
 		];
 		var trailer = [
 			'NqgjPRNRDSY',

@@ -514,11 +514,11 @@ if (Meteor.isServer) {
 			'Alfonso Cuaron, Mark Sanger'
 		];
 		var img = [
-			'',
-			'',
-			'',
-			'',
-			''
+			'12-years-a-slave',
+			'american-hustle',
+			'captain-phillips',
+			'dallas-buyers-club',
+			'gravity'
 		];
 		var trailer = [
 			'VsY2nWGkzfY',

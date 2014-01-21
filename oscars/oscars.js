@@ -141,11 +141,11 @@ if (Meteor.isServer) {
 			'Gravity'
 		];
 		var img = [
-			'',
-			'',
-			'',
-			'',
-			''
+			'amy-adams',
+			'cate-blanchett',
+			'judi-dench',
+			'meryl-streep',
+			'sandra-bullock'
 		];
 		var trailer = [
 			'NqgjPRNRDSY',

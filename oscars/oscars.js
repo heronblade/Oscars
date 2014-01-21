@@ -336,11 +336,11 @@ if (Meteor.isServer) {
 	//cinematography
 	if (cinematography.find().count() == 0) {
 		var name = [
-			'"Gravity"', 
-			'"Inside Llewyn Davis"', 
-			'"Nebraska"', 
-			'"Prisoners"', 
-			'"The Grandmaster"'
+			'Gravity', 
+			'Inside Llewyn Davis', 
+			'Nebraska', 
+			'Prisoners', 
+			'The Grandmaster'
 		];
 		var info = [
 			'Emmanuel Lubezki',
@@ -350,7 +350,13 @@ if (Meteor.isServer) {
 			'Phillippe Le Sourd'
 		];
 		var img = [];
-		var trailer = [];
+		var trailer = [
+			'd-w5EZKx-6A',
+			'9qj6T24jf8Y',
+			'lFjk39mfsoY',
+			'QR1O1-oUlYg',
+			'uC5amKLgnFU'
+		];
 	}
 
 	//costume

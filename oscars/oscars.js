@@ -95,13 +95,19 @@ if (Meteor.isServer) {
 		];
 		var info = [];
 		var img = [];
-		var trailer = [];
+		var trailer = [
+			'UT5tqPojMtg',
+			'vUQNjfhlREk',
+			'NqgjPRNRDSY',
+			'pabEtIERlic',
+			'fvMPU0WaPcc'
+		];
 	}
 
 	//actress
 	if (actress.find().count() == 0) {
 		var name = [
-			'Amy Adams - ',
+			'Amy Adams',
 			'Cate Blanchet',
 			'Judi Dench',
 			'Meryl Streep',
@@ -115,7 +121,13 @@ if (Meteor.isServer) {
 			'Gravity'
 		];
 		var img = [];
-		var trailer = [];
+		var trailer = [
+			'NqgjPRNRDSY',
+			'FER3C394aI8',
+			'4DBPqcp6Hc4',
+			'9Hd_uO72h1s',
+			'C4pcg7bXgmU'
+		];
 	}
 
 	//supporting actor
@@ -135,7 +147,13 @@ if (Meteor.isServer) {
 			'12 Years a Slave'
 		];
 		var img = [];
-		var trailer = [];
+		var trailer = [
+			'TzU3UJuV80w',
+			'NqgjPRNRDSY',
+			'fvMPU0WaPcc',
+			'pabEtIERlic',
+			'vUQNjfhlREk'
+		];
 	}
 
 	//supporting actress

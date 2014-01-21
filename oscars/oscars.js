@@ -285,9 +285,9 @@ if (Meteor.isServer) {
 	if (musicOrigSong.find().count() == 0) {
 		var name = [
 			'Alone Yet Not Alone: Alone Yet Not Alone',
-			'Despicable Me 2: Happy', 
-			'Frozen: Let it Go', 
-			'Her: The Moon Song', 
+			'Despicable Me 2: Happy',
+			'Frozen: Let it Go',
+			'Her: The Moon Song',
 			'Mandela: Long Walk to Freedom: Ordinary Love'
 		];
 		var info = [
@@ -310,7 +310,7 @@ if (Meteor.isServer) {
 	//original score
 	if (musicOrigScore.find().count() == 0) {
 		var name = [
-			'Gravity', 
+			'Gravity',
 			'Her',
 			'Philomena',
 			'Saving Mr. Banks',
@@ -336,10 +336,10 @@ if (Meteor.isServer) {
 	//cinematography
 	if (cinematography.find().count() == 0) {
 		var name = [
-			'Gravity', 
-			'Inside Llewyn Davis', 
-			'Nebraska', 
-			'Prisoners', 
+			'Gravity',
+			'Inside Llewyn Davis',
+			'Nebraska',
+			'Prisoners',
 			'The Grandmaster'
 		];
 		var info = [
@@ -362,9 +362,9 @@ if (Meteor.isServer) {
 	//costume
 	if (costumeDesign.find().count() == 0) {
 		var name = [
-			'12 Years a Slave', 
-			'American Hustle', 
-			'The Grandmaster', 
+			'12 Years a Slave',
+			'American Hustle',
+			'The Grandmaster',
 			'The Great Gatsby',
 			'The Invisible Woman'
 		];
@@ -388,10 +388,10 @@ if (Meteor.isServer) {
 	//documentary feature
 	if (docFeature.find().count() == 0) {
 		var name = [
-			'20 Feet From Stardom', 
-			'Cutie and the Boxer', 
+			'20 Feet From Stardom',
+			'Cutie and the Boxer',
 			'Dirty Wars',
-			'The Act of Killing', 
+			'The Act of Killing',
 			'The Square'
 		];
 		var info = [];
@@ -408,8 +408,8 @@ if (Meteor.isServer) {
 	//film editing
 	if (filmEditing.find().count() == 0) {
 		var name = [
-			'12 Years a Slave', 
-			'American Hustle', 
+			'12 Years a Slave',
+			'American Hustle',
 			'Captain Phillips',
 			'Dallas Buyers Club',
 			'Gravity'
@@ -454,11 +454,11 @@ if (Meteor.isServer) {
 	//production design
 	if (prodDesign.find().count() == 0) {
 		var name = [
-			'"12 Years a Slave"', 
-			'"American Hustle"', 
-			'"Gravity"',
-			'"Her"',
-			'"The Great Gatsby"'
+			'12 Years a Slave',
+			'American Hustle',
+			'Gravity',
+			'Her',
+			'The Great Gatsby'
 		];
 		var info = [
 			'Adam Stockhausen and Alice Baker',
@@ -468,91 +468,133 @@ if (Meteor.isServer) {
 			'Catherine Martin and Beverley Dunn'
 		];
 		var img = [];
-		var trailer = [];
+		var trailer = [
+			'',
+			'',
+			'',
+			'',
+			''
+		];
 	}
 
 	//vfx
 	if (visualEffects.find().count() == 0) {
 		var name = [
-			'"Gravity"',
-			'"Iron Man 3"',
-			'"Star Trek Into Darkness"',
-			'"The Hobbit: The Desolation of Smaug"',
-			'"The Lone Ranger"'
+			'Gravity',
+			'Iron Man 3',
+			'Star Trek Into Darkness',
+			'The Hobbit: The Desolation of Smaug',
+			'The Lone Ranger'
 		];
 		var info = [];
 		var img = [];
-		var trailer = [];
+		var trailer = [
+			'',
+			'',
+			'',
+			'',
+			''
+		];
 	}
 
 	//sound mixing
 	if (soundMixing.find().count() == 0) {
 		var name = [
-			'"Captain Phillips"', 
-			'"Gravity"', 
-			'"Inside Llewyn Davis"', 
-			'"Lone Survivor"',
-			'"The Hobbit: The Desolation of Smaug"'
+			'Captain Phillips',
+			'Gravity',
+			'Inside Llewyn Davis',
+			'Lone Survivor',
+			'The Hobbit: The Desolation of Smaug'
 		];
 		var info = [];
 		var img = [];
-		var trailer = [];
+		var trailer = [
+			'',
+			'',
+			'',
+			'',
+			''
+		];
 	}
 
 	//sound editing
 	if (soundEditing.find().count() == 0) {
 		var name = [
-			'"All Is Lost"',
-			'"Captain Phillips"', 
-			'"Gravity"',
-			'"Lone Survivor"',
-			'"The Hobbit: The Desolation of Smaug"'
+			'All Is Lost',
+			'Captain Phillips',
+			'Gravity',
+			'Lone Survivor',
+			'The Hobbit: The Desolation of Smaug'
 		];
 		var info = [];
 		var img = [];
-		var trailer = [];
+		var trailer = [
+			'',
+			'',
+			'',
+			'',
+			''
+		];
 	}
 
 	//short film live action
 	if (shortFilmLiveAction.find().count() == 0) {
 		var name = [
-			'"Aquel No Era Yo (That Wasn\'t Me)"', 
-			'"Avant Que De Tout Perdre (Just Before Losing Everything)"', 
-			'"Helium"', 
-			'"Pitaako Mun Kaikki Hoitaa? (Do I Have to Take Care of Everything?)"', 
-			'"The Voorman Problem"'
+			'Aquel No Era Yo (That Wasn\'t Me)',
+			'Avant Que De Tout Perdre (Just Before Losing Everything)',
+			'Helium',
+			'Pitaako Mun Kaikki Hoitaa? (Do I Have to Take Care of Everything?)',
+			'The Voorman Problem'
 		];
 		var info = [];
 		var img = [];
-		var trailer = [];
+		var trailer = [
+			'',
+			'',
+			'',
+			'',
+			''
+		];
 	}
 
 	//short film animated
 	if (shortFilmAnimated.find().count() == 0) {
 		var name = [
-			'"Feral"', 
-			'"Get a Horse!"', 
-			'"Mr. Hublot"', 
-			'"Possessions"',
-			'"Room on the Broom"'
+			'Feral',
+			'Get a Horse!',
+			'Mr. Hublot',
+			'Possessions',
+			'Room on the Broom'
 		];
 		var info = [];
 		var img = [];
-		var trailer = [];
+		var trailer = [
+			'',
+			'',
+			'',
+			'',
+			''
+		];
 	}
 
 	//documentary short
 	if (docShort.find().count() == 0) {
 		var name = [
-			'"CaveDigger" ',
-			'"Facing Fear"', 
-			'"Karama Has No Walls" ',
-			'"Prison Terminal: The Last Days of Private Jack Hall"',
-			'"The Lady in Number 6: Music Saved My Life"'
+			'CaveDigger ',
+			'Facing Fear',
+			'Karama Has No Walls ',
+			'Prison Terminal: The Last Days of Private Jack Hall',
+			'The Lady in Number 6: Music Saved My Life'
 		];
 		var info = [];
 		var img = [];
-		var trailer = [];
+		var trailer = [
+			'',
+			'',
+			'',
+			'',
+			''
+		];
 	}
 
 });

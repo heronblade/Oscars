@@ -51,7 +51,17 @@ if (Meteor.isServer) {
 		var img = [
 			''
 		];
-		var trailer = [];
+		var trailer = [
+			'vUQNjfhlREk',
+			'ST7a1aK_lG0',
+			'_3ASoBrFGlc',
+			'fvMPU0WaPcc',
+			'ufsrgE0BYf0',
+			'WzV6mXIOVl4',
+			'UT5tqPojMtg',
+			'4DBPqcp6Hc4',
+			'iszwuX1AK6A'
+		];
 	}
 
 	//director

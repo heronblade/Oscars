@@ -542,11 +542,9 @@ if (Meteor.isServer) {
 			'Joel Harlow and Gloria Pasqua-Casny'
 		];
 		var img = [
-			'',
-			'',
-			'',
-			'',
-			''
+			'bad-grandpa',
+			'dallas-buyers-club',
+			'the-lone-ranger'
 		];
 		var trailer = [
 			'Hs1kpGNSRVk',

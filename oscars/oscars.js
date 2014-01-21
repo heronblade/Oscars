@@ -469,11 +469,11 @@ if (Meteor.isServer) {
 		];
 		var img = [];
 		var trailer = [
-			'',
-			'',
-			'',
-			'',
-			''
+			'z02Ie8wKKRg',
+			'ST7a1aK_lG0',
+			'd-w5EZKx-6A',
+			'WzV6mXIOVl4',
+			'KFLzfII-AaQ'
 		];
 	}
 
@@ -489,11 +489,11 @@ if (Meteor.isServer) {
 		var info = [];
 		var img = [];
 		var trailer = [
-			'',
-			'',
-			'',
-			'',
-			''
+			'75393DNNdjw',
+			'TIRSTe8Qvmg',
+			'Y-M3lFtPLGI',
+			'xml_ACaaYMw',
+			'JbuzAV1TAYc'
 		];
 	}
 

@@ -700,11 +700,11 @@ if (Meteor.isServer) {
 		];
 		var info = [];
 		var img = [
-			'',
-			'',
-			'',
-			'',
-			''
+			'feral',
+			'get-a-horse',
+			'mr-hublot',
+			'possessions',
+			'room-on-the-broom'
 		];
 		var trailer = [
 			'JI6WgxqQojA',

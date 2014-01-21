@@ -213,7 +213,7 @@ if (Meteor.isServer) {
 		var name = [
 			'12 Years a Slave',
 			'Before Midnight',
-			'Captain Phillips - ',
+			'Captain Phillips',
 			'Philomena',
 			'The Wolf of Wall Street'
 		];
@@ -226,7 +226,13 @@ if (Meteor.isServer) {
 
 		];
 		var img = [];
-		var trailer = [];
+		var trailer = [
+			'vUQNjfhlREk',
+			'euOJkb0U8vE',
+			'TzU3UJuV80w',
+			'4DBPqcp6Hc4',
+			'pabEtIERlic'
+		];
 	}
 
 	//animated feature

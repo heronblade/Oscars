@@ -648,11 +648,11 @@ if (Meteor.isServer) {
 		];
 		var info = [];
 		var img = [
-			'',
-			'',
-			'',
-			'',
-			''
+			'all-is-lost',
+			'captain-phillips',
+			'gravity',
+			'lone-survivor',
+			'the-hobbit-the-desolation-of-smaug'
 		];
 		var trailer = [
 			'Lk_R04LfUQU',

@@ -482,11 +482,11 @@ if (Meteor.isServer) {
 		];
 		var info = [];
 		var img = [
-			'',
-			'',
-			'',
-			'',
-			''
+			'20-feet-from-stardom',
+			'cutie-and-the-boxer',
+			'dirty-wars',
+			'the-act-of-killing',
+			'the-square'
 		];
 		var trailer = [
 			'tWyUJcA8Zfo',

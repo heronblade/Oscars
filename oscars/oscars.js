@@ -509,11 +509,11 @@ if (Meteor.isServer) {
 		var info = [];
 		var img = [];
 		var trailer = [
-			'',
-			'',
-			'',
-			'',
-			''
+			'http://www.youtube.com/watch?v=GEyM01dAxp8',
+			'http://www.youtube.com/watch?v=bujNUvMous4',
+			'http://www.youtube.com/watch?v=ZcwLe2gGf2g',
+			'http://www.youtube.com/watch?v=0cPJ1ifjBDs',
+			'http://www.youtube.com/watch?v=1Rtql5bmGw8'
 		];
 	}
 
@@ -529,11 +529,11 @@ if (Meteor.isServer) {
 		var info = [];
 		var img = [];
 		var trailer = [
-			'',
-			'',
-			'',
-			'',
-			''
+			'Lk_R04LfUQU',
+			'u7JptS2VZNg',
+			'_RCG-uLQWzA',
+			'TYHpr0kksKg',
+			'1Rtql5bmGw8'
 		];
 	}
 

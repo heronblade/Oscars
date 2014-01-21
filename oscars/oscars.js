@@ -49,7 +49,15 @@ if (Meteor.isServer) {
 		];
 		var info = [];
 		var img = [
-			''
+			'12-years-a-slave',
+			'american-hustle',
+			'captain-phillips',
+			'dallas-buyers-club',
+			'gravity',
+			'her',
+			'nebraska',
+			'philomena',
+			'the-wolf-of-wall-street'
 		];
 		var trailer = [
 			'vUQNjfhlREk',

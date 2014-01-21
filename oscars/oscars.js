@@ -237,11 +237,11 @@ if (Meteor.isServer) {
 			'Bob Nelson'
 		];
 		var img = [
-			'',
-			'',
-			'',
-			'',
-			''
+			'american-hustle',
+			'blue-jasmine',
+			'dallas-buyers-club',
+			'her',
+			'nebraska'
 		];
 		var trailer = [
 			'NqgjPRNRDSY',

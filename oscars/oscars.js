@@ -284,11 +284,11 @@ if (Meteor.isServer) {
 	//original song
 	if (musicOrigSong.find().count() == 0) {
 		var name = [
-			'"Alone Yet Not Alone": "Alone Yet Not Alone"',
-			'"Despicable Me 2": "Happy"', 
-			'"Frozen": "Let it Go"', 
-			'"Her": "The Moon Song"', 
-			'"Mandela: Long Walk to Freedom": "Ordinary Love"'
+			'Alone Yet Not Alone: Alone Yet Not Alone',
+			'Despicable Me 2: Happy', 
+			'Frozen: Let it Go', 
+			'Her: The Moon Song', 
+			'Mandela: Long Walk to Freedom: Ordinary Love'
 		];
 		var info = [
 			'Bruce Broughton, Dennis Spiegel',
@@ -298,7 +298,13 @@ if (Meteor.isServer) {
 			'U2, Paul Hewson'
 		];
 		var img = [];
-		var trailer = [];
+		var trailer = [
+			'3n0TORpISk8',
+			'y6Sxv-sUYtM',
+			'moSFlvxnbgk',
+			'9teBt8bu5OY',
+			'XC3ahd6Di3M'
+		];
 	}
 
 	//original score

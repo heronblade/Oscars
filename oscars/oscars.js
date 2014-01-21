@@ -272,7 +272,13 @@ if (Meteor.isServer) {
 			'Cambodia'
 		];
 		var img = [];
-		var trailer = [];
+		var trailer = [
+			'v5dSeBD-qiY',
+			'3a50DJkCxqw',
+			'fJfvX6zPAuQ',
+			'vK9cO7QN8Ak',
+			'3tZL5S5thvs'
+		];
 	}
 
 	//original song

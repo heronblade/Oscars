@@ -569,11 +569,11 @@ if (Meteor.isServer) {
 		var info = [];
 		var img = [];
 		var trailer = [
-			'',
-			'',
-			'',
-			'',
-			''
+			'JI6WgxqQojA',
+			'VIsuaDajIjg',
+			'NbHYMGkX6Ro',
+			'<iframe width="644" height="362" src="http://oscar.go.com/embed/VDKA0_57x8cum1" frameborder="0"></iframe>',
+			'fzYgfuycWWw'
 		];
 	}
 

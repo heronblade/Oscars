@@ -596,11 +596,11 @@ if (Meteor.isServer) {
 		];
 		var info = [];
 		var img = [
-			'',
-			'',
-			'',
-			'',
-			''
+			'gravity',
+			'iron-man-3',
+			'star-trek-into-darkness',
+			'the-hobbit-the-desolation-of-smaug',
+			'the-lone-ranger'
 		];
 		var trailer = [
 			'75393DNNdjw',

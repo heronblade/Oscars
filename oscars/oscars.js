@@ -296,11 +296,11 @@ if (Meteor.isServer) {
 		];
 		var info = [];
 		var img = [
-			'',
-			'',
-			'',
-			'',
-			''
+			'despicable-me-2',
+			'ernest-and-celestine',
+			'frozen',
+			'the-croods',
+			'the-wind-rises'
 		];
 		var trailer = [
 			'HwXbtZXjbVE',

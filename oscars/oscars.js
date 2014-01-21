@@ -362,11 +362,11 @@ if (Meteor.isServer) {
 	//costume
 	if (costumeDesign.find().count() == 0) {
 		var name = [
-			'"12 Years a Slave"', 
-			'"American Hustle"', 
-			'"The Grandmaster"', 
-			'"The Great Gatsby"',
-			'"The Invisible Woman"'
+			'12 Years a Slave', 
+			'American Hustle', 
+			'The Grandmaster', 
+			'The Great Gatsby',
+			'The Invisible Woman'
 		];
 		var info = [
 			'Patricia Norris',
@@ -376,7 +376,13 @@ if (Meteor.isServer) {
 			'Michael O\'Connor'
 		];
 		var img = [];
-		var trailer = [];
+		var trailer = [
+			'z02Ie8wKKRg',
+			'3fHOEVaLbTE',
+			'kWQLkrYxmpc',
+			'KFLzfII-AaQ',
+			'Ecc61t4g5f4'
+		];
 	}
 
 	//documentary feature

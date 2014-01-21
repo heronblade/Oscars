@@ -83,7 +83,7 @@ if (Meteor.isServer) {
 		];
 		var info = [];
 		var img = [
-			'alexander-payne'.
+			'alexander-payne',
 			'alfonso-cuaron',
 			'david-o-russell',
 			'martin-scorcese',
@@ -109,11 +109,11 @@ if (Meteor.isServer) {
 		];
 		var info = [];
 		var img = [
-			''.
-			'',
-			'',
-			'',
-			''
+			'bruce-dern',
+			'chiwetel-ejiofor',
+			'christian-bale',
+			'leonardo-di-caprio',
+			'matthew-mcconaughey'
 		];
 		var trailer = [
 			'UT5tqPojMtg',
@@ -141,7 +141,7 @@ if (Meteor.isServer) {
 			'Gravity'
 		];
 		var img = [
-			''.
+			'',
 			'',
 			'',
 			'',
@@ -173,7 +173,7 @@ if (Meteor.isServer) {
 			'12 Years a Slave'
 		];
 		var img = [
-			''.
+			'',
 			'',
 			'',
 			'',
@@ -205,7 +205,7 @@ if (Meteor.isServer) {
 			'Blue Jasmine'
 		];
 		var img = [
-			''.
+			'',
 			'',
 			'',
 			'',
@@ -237,7 +237,7 @@ if (Meteor.isServer) {
 			'Bob Nelson'
 		];
 		var img = [
-			''.
+			'',
 			'',
 			'',
 			'',
@@ -270,7 +270,7 @@ if (Meteor.isServer) {
 
 		];
 		var img = [
-			''.
+			'',
 			'',
 			'',
 			'',
@@ -296,7 +296,7 @@ if (Meteor.isServer) {
 		];
 		var info = [];
 		var img = [
-			''.
+			'',
 			'',
 			'',
 			'',
@@ -328,7 +328,7 @@ if (Meteor.isServer) {
 			'Cambodia'
 		];
 		var img = [
-			''.
+			'',
 			'',
 			'',
 			'',
@@ -360,7 +360,7 @@ if (Meteor.isServer) {
 			'U2, Paul Hewson'
 		];
 		var img = [
-			''.
+			'',
 			'',
 			'',
 			'',
@@ -392,7 +392,7 @@ if (Meteor.isServer) {
 			'John Williams'
 		];
 		var img = [
-			''.
+			'',
 			'',
 			'',
 			'',
@@ -424,7 +424,7 @@ if (Meteor.isServer) {
 			'Phillippe Le Sourd'
 		];
 		var img = [
-			''.
+			'',
 			'',
 			'',
 			'',
@@ -456,7 +456,7 @@ if (Meteor.isServer) {
 			'Michael O\'Connor'
 		];
 		var img = [
-			''.
+			'',
 			'',
 			'',
 			'',
@@ -482,7 +482,7 @@ if (Meteor.isServer) {
 		];
 		var info = [];
 		var img = [
-			''.
+			'',
 			'',
 			'',
 			'',
@@ -514,7 +514,7 @@ if (Meteor.isServer) {
 			'Alfonso Cuaron, Mark Sanger'
 		];
 		var img = [
-			''.
+			'',
 			'',
 			'',
 			'',
@@ -542,7 +542,7 @@ if (Meteor.isServer) {
 			'Joel Harlow and Gloria Pasqua-Casny'
 		];
 		var img = [
-			''.
+			'',
 			'',
 			'',
 			'',
@@ -572,7 +572,7 @@ if (Meteor.isServer) {
 			'Catherine Martin and Beverley Dunn'
 		];
 		var img = [
-			''.
+			'',
 			'',
 			'',
 			'',
@@ -598,7 +598,7 @@ if (Meteor.isServer) {
 		];
 		var info = [];
 		var img = [
-			''.
+			'',
 			'',
 			'',
 			'',
@@ -624,7 +624,7 @@ if (Meteor.isServer) {
 		];
 		var info = [];
 		var img = [
-			''.
+			'',
 			'',
 			'',
 			'',
@@ -650,7 +650,7 @@ if (Meteor.isServer) {
 		];
 		var info = [];
 		var img = [
-			''.
+			'',
 			'',
 			'',
 			'',
@@ -676,7 +676,7 @@ if (Meteor.isServer) {
 		];
 		var info = [];
 		var img = [
-			''.
+			'',
 			'',
 			'',
 			'',
@@ -702,7 +702,7 @@ if (Meteor.isServer) {
 		];
 		var info = [];
 		var img = [
-			''.
+			'',
 			'',
 			'',
 			'',
@@ -728,7 +728,7 @@ if (Meteor.isServer) {
 		];
 		var info = [];
 		var img = [
-			''.
+			'',
 			'',
 			'',
 			'',

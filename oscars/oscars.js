@@ -360,11 +360,11 @@ if (Meteor.isServer) {
 			'U2, Paul Hewson'
 		];
 		var img = [
-			'',
-			'',
-			'',
-			'',
-			''
+			'bruce-broughton',
+			'pharrell-williams',
+			'robert-and-kristen-lopez',
+			'karen-0',
+			'paul-hewson'
 		];
 		var trailer = [
 			'3n0TORpISk8',

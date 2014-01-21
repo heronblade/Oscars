@@ -434,9 +434,9 @@ if (Meteor.isServer) {
 	//makeup and hairstyling
 	if (makeup.find().count() == 0) {
 		var name = [
-			'"Dallas Buyers Club"',
-			'"Jackass Presents: Bad Grandpa"',
-			'"The Lone Ranger"'
+			'Dallas Buyers Club',
+			'Jackass Presents: Bad Grandpa',
+			'The Lone Ranger'
 		];
 		var info = [
 			'Adruitha Lee and Robin Mathews',
@@ -444,7 +444,11 @@ if (Meteor.isServer) {
 			'Joel Harlow and Gloria Pasqua-Casny'
 		];
 		var img = [];
-		var trailer = [];
+		var trailer = [
+			'Hs1kpGNSRVk',
+			'5IGTdHOLbgQ',
+			'JjFsNSoDZK8'
+		];
 	}
 
 	//production design

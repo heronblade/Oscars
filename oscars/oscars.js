@@ -622,11 +622,11 @@ if (Meteor.isServer) {
 		];
 		var info = [];
 		var img = [
-			'',
-			'',
-			'',
-			'',
-			''
+			'captain-phillips',
+			'gravity',
+			'inside-llewyn-davis',
+			'lone-survivor',
+			'the-hobbit-the-desolation-of-smaug'
 		];
 		var trailer = [
 			'http://www.youtube.com/watch?v=GEyM01dAxp8',

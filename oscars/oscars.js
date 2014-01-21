@@ -82,7 +82,13 @@ if (Meteor.isServer) {
 			'Steve McQueen - 12 Years a Slave'
 		];
 		var info = [];
-		var img = [];
+		var img = [
+			'alexander-payne'.
+			'alfonso-cuaron',
+			'david-o-russell',
+			'martin-scorcese',
+			'steve-mcqueen'
+		];
 		var trailer = [
 			'UT5tqPojMtg',
 			'ufsrgE0BYf0',
@@ -102,7 +108,13 @@ if (Meteor.isServer) {
 			'Matthew McConaughey - Dallas Buyers Club'
 		];
 		var info = [];
-		var img = [];
+		var img = [
+			''.
+			'',
+			'',
+			'',
+			''
+		];
 		var trailer = [
 			'UT5tqPojMtg',
 			'vUQNjfhlREk',
@@ -128,7 +140,13 @@ if (Meteor.isServer) {
 			'August: Osage County',
 			'Gravity'
 		];
-		var img = [];
+		var img = [
+			''.
+			'',
+			'',
+			'',
+			''
+		];
 		var trailer = [
 			'NqgjPRNRDSY',
 			'FER3C394aI8',
@@ -154,7 +172,13 @@ if (Meteor.isServer) {
 			'The Wolf of Wall Street',
 			'12 Years a Slave'
 		];
-		var img = [];
+		var img = [
+			''.
+			'',
+			'',
+			'',
+			''
+		];
 		var trailer = [
 			'TzU3UJuV80w',
 			'NqgjPRNRDSY',
@@ -180,7 +204,13 @@ if (Meteor.isServer) {
 			'12 Years a Slave',
 			'Blue Jasmine'
 		];
-		var img = [];
+		var img = [
+			''.
+			'',
+			'',
+			'',
+			''
+		];
 		var trailer = [
 			'NqgjPRNRDSY',
 			'9Hd_uO72h1s',
@@ -206,7 +236,13 @@ if (Meteor.isServer) {
 			'Spike Jonze',
 			'Bob Nelson'
 		];
-		var img = [];
+		var img = [
+			''.
+			'',
+			'',
+			'',
+			''
+		];
 		var trailer = [
 			'NqgjPRNRDSY',
 			'FER3C394aI8',
@@ -233,7 +269,13 @@ if (Meteor.isServer) {
 			'Terrance Winter'
 
 		];
-		var img = [];
+		var img = [
+			''.
+			'',
+			'',
+			'',
+			''
+		];
 		var trailer = [
 			'vUQNjfhlREk',
 			'euOJkb0U8vE',
@@ -253,7 +295,13 @@ if (Meteor.isServer) {
 			'The Wind Rises'
 		];
 		var info = [];
-		var img = [];
+		var img = [
+			''.
+			'',
+			'',
+			'',
+			''
+		];
 		var trailer = [
 			'HwXbtZXjbVE',
 			'UJ1rmOYLr2U',
@@ -279,7 +327,13 @@ if (Meteor.isServer) {
 			'Denmark',
 			'Cambodia'
 		];
-		var img = [];
+		var img = [
+			''.
+			'',
+			'',
+			'',
+			''
+		];
 		var trailer = [
 			'v5dSeBD-qiY',
 			'3a50DJkCxqw',
@@ -305,7 +359,13 @@ if (Meteor.isServer) {
 			'Karen O, Spike Jonze',
 			'U2, Paul Hewson'
 		];
-		var img = [];
+		var img = [
+			''.
+			'',
+			'',
+			'',
+			''
+		];
 		var trailer = [
 			'3n0TORpISk8',
 			'y6Sxv-sUYtM',
@@ -331,7 +391,13 @@ if (Meteor.isServer) {
 			'Thomas Newman',
 			'John Williams'
 		];
-		var img = [];
+		var img = [
+			''.
+			'',
+			'',
+			'',
+			''
+		];
 		var trailer = [
 			'JS3DVf1U6P8',
 			'xakaZwsUMio',
@@ -357,7 +423,13 @@ if (Meteor.isServer) {
 			'Roger Deakins',
 			'Phillippe Le Sourd'
 		];
-		var img = [];
+		var img = [
+			''.
+			'',
+			'',
+			'',
+			''
+		];
 		var trailer = [
 			'd-w5EZKx-6A',
 			'9qj6T24jf8Y',
@@ -383,7 +455,13 @@ if (Meteor.isServer) {
 			'Catherine Martin',
 			'Michael O\'Connor'
 		];
-		var img = [];
+		var img = [
+			''.
+			'',
+			'',
+			'',
+			''
+		];
 		var trailer = [
 			'z02Ie8wKKRg',
 			'3fHOEVaLbTE',
@@ -403,7 +481,13 @@ if (Meteor.isServer) {
 			'The Square'
 		];
 		var info = [];
-		var img = [];
+		var img = [
+			''.
+			'',
+			'',
+			'',
+			''
+		];
 		var trailer = [
 			'tWyUJcA8Zfo',
 			'YXS6Aby5AUg',
@@ -429,7 +513,13 @@ if (Meteor.isServer) {
 			'John Mac McMurphy and Martin Pensa',
 			'Alfonso Cuaron, Mark Sanger'
 		];
-		var img = [];
+		var img = [
+			''.
+			'',
+			'',
+			'',
+			''
+		];
 		var trailer = [
 			'VsY2nWGkzfY',
 			'ST7a1aK_lG0',
@@ -451,7 +541,13 @@ if (Meteor.isServer) {
 			'Stephen Prouty',
 			'Joel Harlow and Gloria Pasqua-Casny'
 		];
-		var img = [];
+		var img = [
+			''.
+			'',
+			'',
+			'',
+			''
+		];
 		var trailer = [
 			'Hs1kpGNSRVk',
 			'5IGTdHOLbgQ',
@@ -475,7 +571,13 @@ if (Meteor.isServer) {
 			'K.K. Barrett and Gene Serdena',
 			'Catherine Martin and Beverley Dunn'
 		];
-		var img = [];
+		var img = [
+			''.
+			'',
+			'',
+			'',
+			''
+		];
 		var trailer = [
 			'z02Ie8wKKRg',
 			'ST7a1aK_lG0',
@@ -495,7 +597,13 @@ if (Meteor.isServer) {
 			'The Lone Ranger'
 		];
 		var info = [];
-		var img = [];
+		var img = [
+			''.
+			'',
+			'',
+			'',
+			''
+		];
 		var trailer = [
 			'75393DNNdjw',
 			'TIRSTe8Qvmg',
@@ -515,7 +623,13 @@ if (Meteor.isServer) {
 			'The Hobbit: The Desolation of Smaug'
 		];
 		var info = [];
-		var img = [];
+		var img = [
+			''.
+			'',
+			'',
+			'',
+			''
+		];
 		var trailer = [
 			'http://www.youtube.com/watch?v=GEyM01dAxp8',
 			'http://www.youtube.com/watch?v=bujNUvMous4',
@@ -535,7 +649,13 @@ if (Meteor.isServer) {
 			'The Hobbit: The Desolation of Smaug'
 		];
 		var info = [];
-		var img = [];
+		var img = [
+			''.
+			'',
+			'',
+			'',
+			''
+		];
 		var trailer = [
 			'Lk_R04LfUQU',
 			'u7JptS2VZNg',
@@ -555,7 +675,13 @@ if (Meteor.isServer) {
 			'The Voorman Problem'
 		];
 		var info = [];
-		var img = [];
+		var img = [
+			''.
+			'',
+			'',
+			'',
+			''
+		];
 		var trailer = [
 			'pfbDN94UucU',
 			'PpGOaR1bTac',
@@ -575,7 +701,13 @@ if (Meteor.isServer) {
 			'Room on the Broom'
 		];
 		var info = [];
-		var img = [];
+		var img = [
+			''.
+			'',
+			'',
+			'',
+			''
+		];
 		var trailer = [
 			'JI6WgxqQojA',
 			'VIsuaDajIjg',
@@ -595,7 +727,13 @@ if (Meteor.isServer) {
 			'The Lady in Number 6: Music Saved My Life'
 		];
 		var info = [];
-		var img = [];
+		var img = [
+			''.
+			'',
+			'',
+			'',
+			''
+		];
 		var trailer = [
 			'SH-SyQtu0w0',
 			'QZP3cZAfLfs',

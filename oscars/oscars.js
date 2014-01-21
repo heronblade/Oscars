@@ -328,11 +328,11 @@ if (Meteor.isServer) {
 			'Cambodia'
 		];
 		var img = [
-			'',
-			'',
-			'',
-			'',
-			''
+			'omar',
+			'the-broken-circle-breakdown',
+			'the-great-beauty',
+			'the-hunt',
+			'the-missing-picture'
 		];
 		var trailer = [
 			'v5dSeBD-qiY',

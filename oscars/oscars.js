@@ -570,11 +570,11 @@ if (Meteor.isServer) {
 			'Catherine Martin and Beverley Dunn'
 		];
 		var img = [
-			'',
-			'',
-			'',
-			'',
-			''
+			'12-years-a-slave',
+			'american-hustle',
+			'gravity',
+			'her',
+			'the-great-gatsby'
 		];
 		var trailer = [
 			'z02Ie8wKKRg',

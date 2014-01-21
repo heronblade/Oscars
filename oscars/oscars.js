@@ -674,11 +674,11 @@ if (Meteor.isServer) {
 		];
 		var info = [];
 		var img = [
-			'',
-			'',
-			'',
-			'',
-			''
+			'aquel-no-era-yo',
+			'avant-que-de-tout-perdre',
+			'helium',
+			'pitaako-mun-kaikki-hoitaa',
+			'the-voorman-problem'
 		];
 		var trailer = [
 			'pfbDN94UucU',

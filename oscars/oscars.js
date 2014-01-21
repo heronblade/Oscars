@@ -75,7 +75,13 @@ if (Meteor.isServer) {
 		];
 		var info = [];
 		var img = [];
-		var trailer = [];
+		var trailer = [
+			'UT5tqPojMtg',
+			'ufsrgE0BYf0',
+			'ST7a1aK_lG0',
+			'iszwuX1AK6A',
+			'vUQNjfhlREk'
+		];
 	}
 
 	//actor

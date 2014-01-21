@@ -310,11 +310,11 @@ if (Meteor.isServer) {
 	//original score
 	if (musicOrigScore.find().count() == 0) {
 		var name = [
-			'"Gravity"', 
-			'"Her"',
-			'"Philomena"',
-			'"Saving Mr. Banks"',
-			'"The Book Thief"'
+			'Gravity', 
+			'Her',
+			'Philomena',
+			'Saving Mr. Banks',
+			'The Book Thief'
 		];
 		var info = [
 			'Steven Price',
@@ -324,7 +324,13 @@ if (Meteor.isServer) {
 			'John Williams'
 		];
 		var img = [];
-		var trailer = [];
+		var trailer = [
+			'JS3DVf1U6P8',
+			'xakaZwsUMio',
+			'ik1eeCASO2w',
+			'AtyV1fKwTAQ',
+			'yeIczLYsII4'
+		];
 	}
 
 	//cinematography

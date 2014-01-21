@@ -589,11 +589,11 @@ if (Meteor.isServer) {
 		var info = [];
 		var img = [];
 		var trailer = [
-			'',
-			'',
-			'',
-			'',
-			''
+			'SH-SyQtu0w0',
+			'QZP3cZAfLfs',
+			'UgC6pr6nREk',
+			'iYCL47ass7E',
+			'LrXHcQyixTE'
 		];
 	}
 

@@ -388,15 +388,21 @@ if (Meteor.isServer) {
 	//documentary feature
 	if (docFeature.find().count() == 0) {
 		var name = [
-			'"20 Feet From Stardom", 
-			'"Cutie and the Boxer", 
-			'"Dirty Wars",
-			'"The Act of Killing", 
-			'"The Square"'
+			'20 Feet From Stardom', 
+			'Cutie and the Boxer', 
+			'Dirty Wars',
+			'The Act of Killing', 
+			'The Square'
 		];
 		var info = [];
 		var img = [];
-		var trailer = [];
+		var trailer = [
+			'tWyUJcA8Zfo',
+			'YXS6Aby5AUg',
+			'5KpzBAKJmig',
+			'SD5oMxbMcHM',
+			'twB2zAOzsKE'
+		];
 	}
 
 	//film editing

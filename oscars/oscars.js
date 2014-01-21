@@ -726,11 +726,11 @@ if (Meteor.isServer) {
 		];
 		var info = [];
 		var img = [
-			'',
-			'',
-			'',
-			'',
-			''
+			'cave-digger',
+			'facing-fear',
+			'karma-has-no-walls',
+			'prison-terminal',
+			'the-lady-in-number-6'
 		];
 		var trailer = [
 			'SH-SyQtu0w0',

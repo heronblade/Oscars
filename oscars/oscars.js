@@ -270,11 +270,11 @@ if (Meteor.isServer) {
 
 		];
 		var img = [
-			'',
-			'',
-			'',
-			'',
-			''
+			'12-years-a-slave'
+			'before-midnight',
+			'captain-phillips',
+			'philomena',
+			'the-wolf-of-wall-street'
 		];
 		var trailer = [
 			'vUQNjfhlREk',

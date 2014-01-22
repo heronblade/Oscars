@@ -48,12 +48,12 @@ if (Meteor.isServer) {
 			'The Wolf of Wall Street'
 		];
 		var info = [
-			'',
-			'',
-			'',
-			'',
-			'',
-			'',
+			'http://en.wikipedia.org/wiki/12_Years_a_Slave_(film)',
+			'http://en.wikipedia.org/wiki/American_Hustle',
+			'http://en.wikipedia.org/wiki/Captain_Phillips_(film)',
+			'http://en.wikipedia.org/wiki/Dallas_Buyers_Club',
+			'http://en.wikipedia.org/wiki/Gravity_movie',
+			'http://en.wikipedia.org/wiki/Her_(film)',
 			'',
 			'',
 			''

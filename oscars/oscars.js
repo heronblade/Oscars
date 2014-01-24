@@ -29,6 +29,9 @@ writingOriginal = new Meteor.Collection('writingOriginal');
 
 if (Meteor.isClient) {
 
+	//picture
+
+
 }
 
 if (Meteor.isServer) {
@@ -267,7 +270,7 @@ if (Meteor.isServer) {
 
 		];
 		var img = [
-			'12-years-a-slave'
+			'12-years-a-slave',
 			'before-midnight',
 			'captain-phillips',
 			'philomena',

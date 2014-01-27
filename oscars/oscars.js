@@ -30,6 +30,10 @@ writingOriginal = new Meteor.Collection('writingOriginal');
 if (Meteor.isClient) {
 
 	//picture
+	Template.bestPicture.show = function() {
+		console.log(bestPicture.find({}, {sort: {name:-1}}));
+		return bestPicture.find({});
+	};
 
 
 }
@@ -72,6 +76,10 @@ if (Meteor.isServer) {
 			'4DBPqcp6Hc4',
 			'iszwuX1AK6A'
 		];
+
+		for (var i = 0; i < name.length; i++) {
+			bestPicture.insert({name: name[i], img: img[i], trailer: trailer[i]});
+		}
 	}
 
 	//director

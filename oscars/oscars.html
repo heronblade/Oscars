@@ -12,6 +12,7 @@
 	</div>
 
 	<div id="choices">
+		{{> josh}}
 		{{> bestPicture}}
 		{{> bestActor}}
 		{{> bestActress}}
@@ -40,6 +41,13 @@
 
 </body>
 
+
+<template name="josh">
+	{{#each foods}}
+	{{> food}}
+	{{/each}}
+</template>
+
 <template name="leader">
 <p>leader</p>
 </template>
@@ -51,7 +59,9 @@
 <template name="bestPicture">
 <p>bestpicture</p>
 	<div class="bestPicture">
-		{{show}}
+		{{#each person}}
+			{{> name}}
+		{{/each}}
 	</div>
 </template>
 

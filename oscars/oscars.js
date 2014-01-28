@@ -28,6 +28,100 @@ if (Meteor.isClient) {
   Template.bestPicture.nominee = function() {
     return bestPicture.find();
   }
+
+  Template.actor.nominee = function() {
+    return actor.find();
+  }
+
+  Template.actress.nominee = function() {
+    return actress.find();
+  }
+
+  Template.actorSupp.nominee = function() {
+    return actorSupp.find();
+  }
+
+  Template.actressSupp.nominee = function() {
+    return actressSupp.find();
+  }
+
+  Template.animateFeatFilm.nominee = function() {
+    return animateFeatFilm.find();
+  }
+
+  Template.cinematography.nominee = function() {
+    return cinematography.find();
+  }
+
+  Template.costumeDesign.nominee = function() {
+    return costumeDesign.find();
+  }
+
+  Template.directing.nominee = function() {
+    return directing.find();
+  }
+
+  Template.docFeature.nominee = function() {
+    return docFeature.find();
+  }
+
+  Template.docShort.nominee = function() {
+    return docShort.find();
+  }
+
+  Template.filmEditing.nominee = function() {
+    return filmEditing.find();
+  }
+
+  Template.foreignLanguage.nominee = function() {
+    return foreignLanguage.find();
+  }
+
+  Template.makeup.nominee = function() {
+    return makeup.find();
+  }
+
+  Template.musicOrigScore.nominee = function() {
+    return musicOrigScore.find();
+  }
+
+  Template.musicOrigSong.nominee = function() {
+    return musicOrigSong.find();
+  }
+
+  Template.prodDesign.nominee = function() {
+    return prodDesign.find();
+  }
+
+  Template.shortFilmAnimated.nominee = function() {
+    return shortFilmAnimated.find();
+  }
+
+  Template.shortFilmLiveAction.nominee = function() {
+    return shortFilmLiveAction.find();
+  }
+
+  Template.soundEditing.nominee = function() {
+    return soundEditing.find();
+  }
+
+  Template.soundMixing.nominee = function() {
+    return soundMixing.find();
+  }
+
+  Template.visualEffects.nominee = function() {
+    return visualEffects.find();
+  }
+
+  Template.writingAdapted.nominee = function() {
+    return writingAdapted.find();
+  }
+
+  Template.writingOriginal.nominee = function() {
+    return writingOriginal.find();
+  }
+
+
 }
 
 if (Meteor.isServer) {

@@ -4,158 +4,59 @@
 
 <body>
   <div id="leaders">
-  	{{> leader}}
+  	{{> leaderboard}}
+  	{{> bestPicture}}
   </div>
 
 	<div id="login">
-		{{> login}}
+		
 	</div>
 
 	<div id="choices">
-		{{> josh}}
-		{{> bestPicture}}
-		{{> bestActor}}
-		{{> bestActress}}
-		{{> supportingActor}}
-		{{> supportingActress}}
-		{{> animatedFeatureFilm}}
-		{{> cinematography}}
-		{{> costumeDesign}}
-		{{> directing}}
-		{{> documentaryFeature}}
-		{{> documentaryShortSubject}}
-		{{> filmEditing}}
-		{{> foreignLanguageFilm}}
-		{{> makeupAndHairstyling}}
-		{{> musicOriginalScore}}
-		{{> musicOriginalSong}}
-		{{> productionDesign}}
-		{{> shortFilmAnimated}}
-		{{> shortFilmLiveAction}}
-		{{> soundEditing}}
-		{{> soundMixing}}
-		{{> visualEffects}}
-		{{> writingAdaptedScreenplay}}
-		{{> writingOriginalScreenplay}}
+
 	</div>
 
 </body>
 
-
-<template name="josh">
-	{{#each foods}}
-	{{> food}}
-	{{/each}}
-</template>
-
-<template name="leader">
-<p>leader</p>
-</template>
-
-<template name="login">
-<p>login</p>
-</template>
-
 <template name="bestPicture">
-<p>bestpicture</p>
-	<div class="bestPicture">
-		{{#each person}}
-			{{> name}}
+	<div class="best-picture">
+		{{#each nominee}}
+			{{> bestPicureNominee}}
 		{{/each}}
 	</div>
 </template>
 
-<template name="name">
+<template name="bestPictureNominee">
+	<div class="best-picture-nominee">
+		<span class="name">{{name}}</span>
+		<span class="img">{{img}}</span>
+		<span class="trailer">{{trailer}}</span>
+	</div>
 </template>
 
-<template name="bestActor">
-<p>bestactor</p>
+<template name="leaderboard">
+	<div class="leaderboard">
+		{{#each josh}}
+			{{> player}}
+		{{/each}}
+	</div>
+
+	{{#if selected_name}}
+		<div class="details">
+			<div class="name">{{selected_name}}</div>
+				<input type="button" class="inc" value="Give 5 points" />
+			</div>
+	{{else}}
+		<div class="none">Click a player to select</div>
+	{{/if}}
 </template>
 
-<template name="bestActress">
-<p>bestactress</p>
+<template name="player">
+  <div class="player {{selected}}">
+    <span class="name">{{name}}</span>
+    <span class="score">{{score}}</span>
+  </div>
 </template>
 
-<template name="supportingActor">
-<p>supportingactor</p>
-</template>
 
-<template name="supportingActress">
-<p>supportingactress</p>
-</template>
 
-<template name="animatedFeatureFilm">
-<p>animatedfeaturefilm</p>
-</template>
-
-<template name="cinematography">
-<p>cinematography</p>
-</template>
-
-<template name="costumeDesign">
-<p>costumedesign</p>
-</template>
-
-<template name="directing">
-<p>directing</p>
-</template>
-
-<template name="documentaryFeature">
-<p>documentaryfeature</p>
-</template>
-
-<template name="documentaryShortSubject">
-<p>documentaryshortsubject</p>
-</template>
-
-<template name="filmEditing">
-<p>filmediting</p>
-</template>
-
-<template name="foreignLanguageFilm">
-<p>foreignlanguagefilm</p>
-</template>
-
-<template name="makeupAndHairstyling">
-<p>makeupandhairstyling</p>
-</template>
-
-<template name="musicOriginalScore">
-<p>musicoriginalscore</p>
-</template>
-
-<template name="musicOriginalSong">
-<p>musicoriginalsong</p>
-</template>
-
-<template name="productionDesign">
-<p>productiondesign</p>
-</template>
-
-<template name="shortFilmAnimated">
-<p>shortfilmanimated</p>
-</template>
-
-<template name="shortFilmLiveAction">
-<p>shortfilmliveaction</p>
-</template>
-
-<template name="soundEditing">
-<p>soundediting</p>
-</template>
-
-<template name="soundMixing">
-<p>soundmixing</p>
-</template>
-
-<template name="visualEffects">
-<p>visualeffects</p>
-</template>
-
-<template name="writingAdaptedScreenplay">
-<p>writingadaptedscreenplay</p>
-</template>
-
-<template name="writingOriginalScreenplay">
-<p>writingoriginalscreenplay</p>
-</template>

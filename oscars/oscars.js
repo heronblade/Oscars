@@ -425,6 +425,10 @@ if (Meteor.isServer) {
         'VeG3Zmk08UU',
         'PhHoCnRg1Yw'
       ];
+
+      for (var i = 0; i < name.length; i++) {
+          animateFeatFilm.insert({name: name[i], img: img[i], trailer: trailer[i]});
+        }
     }
 
     //foreign
@@ -457,6 +461,10 @@ if (Meteor.isServer) {
         'vK9cO7QN8Ak',
         '3tZL5S5thvs'
       ];
+
+      for (var i = 0; i < name.length; i++) {
+          foreignLanguage.insert({name: name[i], img: img[i], trailer: trailer[i]});
+        }
     }
 
     //original song
@@ -489,6 +497,10 @@ if (Meteor.isServer) {
         '9teBt8bu5OY',
         'XC3ahd6Di3M'
       ];
+
+      for (var i = 0; i < name.length; i++) {
+          musicOrigSong.insert({name: name[i], img: img[i], trailer: trailer[i]});
+        }
     }
 
     //original score
@@ -521,6 +533,10 @@ if (Meteor.isServer) {
         'AtyV1fKwTAQ',
         'yeIczLYsII4'
       ];
+
+      for (var i = 0; i < name.length; i++) {
+        musicOrigScore.insert({name: name[i], img: img[i], trailer: trailer[i]});
+      }
     }
 
     //cinematography
@@ -553,6 +569,10 @@ if (Meteor.isServer) {
         'QR1O1-oUlYg',
         'uC5amKLgnFU'
       ];
+
+      for (var i = 0; i < name.length; i++) {
+        cinematography.insert({name: name[i], img: img[i], trailer: trailer[i]});
+      }
     }
 
     //costume
@@ -585,6 +605,10 @@ if (Meteor.isServer) {
         'KFLzfII-AaQ',
         'Ecc61t4g5f4'
       ];
+
+      for (var i = 0; i < name.length; i++) {
+        costumeDesign.insert({name: name[i], img: img[i], trailer: trailer[i]});
+      }
     }
 
     //documentary feature
@@ -610,6 +634,10 @@ if (Meteor.isServer) {
         'SD5oMxbMcHM',
         'twB2zAOzsKE'
       ];
+
+      for (var i = 0; i < name.length; i++) {
+        docFeature.insert({name: name[i], img: img[i], trailer: trailer[i]});
+      }
     }
 
     //film editing
@@ -642,6 +670,10 @@ if (Meteor.isServer) {
         'fvMPU0WaPcc',
         'ufsrgE0BYf0'
       ];
+
+      for (var i = 0; i < name.length; i++) {
+        filmEditing.insert({name: name[i], img: img[i], trailer: trailer[i]});
+      }
     }
 
     //makeup and hairstyling
@@ -666,6 +698,10 @@ if (Meteor.isServer) {
         '5IGTdHOLbgQ',
         'JjFsNSoDZK8'
       ];
+
+      for (var i = 0; i < name.length; i++) {
+        makeup.insert({name: name[i], img: img[i], trailer: trailer[i]});
+      }
     }
 
     //production design
@@ -698,6 +734,10 @@ if (Meteor.isServer) {
         'WzV6mXIOVl4',
         'KFLzfII-AaQ'
       ];
+
+      for (var i = 0; i < name.length; i++) {
+        prodDesign.insert({name: name[i], img: img[i], trailer: trailer[i]});
+      }
     }
 
     //vfx
@@ -723,6 +763,10 @@ if (Meteor.isServer) {
         'xml_ACaaYMw',
         'JbuzAV1TAYc'
       ];
+
+      for (var i = 0; i < name.length; i++) {
+        visualEffects.insert({name: name[i], img: img[i], trailer: trailer[i]});
+      }
     }
 
     //sound mixing
@@ -748,6 +792,10 @@ if (Meteor.isServer) {
         '0cPJ1ifjBDs',
         '1Rtql5bmGw8'
       ];
+
+      for (var i = 0; i < name.length; i++) {
+        soundMixing.insert({name: name[i], img: img[i], trailer: trailer[i]});
+      }
     }
 
     //sound editing
@@ -773,6 +821,10 @@ if (Meteor.isServer) {
         'TYHpr0kksKg',
         '1Rtql5bmGw8'
       ];
+
+      for (var i = 0; i < name.length; i++) {
+        soundEditing.insert({name: name[i], img: img[i], trailer: trailer[i]});
+      }
     }
 
     //short film live action
@@ -798,6 +850,10 @@ if (Meteor.isServer) {
         'D0XJRHxK4Y8',
         'dmsljMbdW88'
       ];
+
+      for (var i = 0; i < name.length; i++) {
+        shortFilmLiveAction.insert({name: name[i], img: img[i], trailer: trailer[i]});
+      }
     }
 
     //short film animated
@@ -823,6 +879,10 @@ if (Meteor.isServer) {
         '<iframe width="644" height="362" src="http://oscar.go.com/embed/VDKA0_57x8cum1" frameborder="0"></iframe>',
         'fzYgfuycWWw'
       ];
+
+      for (var i = 0; i < name.length; i++) {
+        shortFilmAnimated.insert({name: name[i], img: img[i], trailer: trailer[i]});
+      }
     }
 
     //documentary short
@@ -848,6 +908,10 @@ if (Meteor.isServer) {
         'iYCL47ass7E',
         'LrXHcQyixTE'
       ];
+
+      for (var i = 0; i < name.length; i++) {
+        docShort.insert({name: name[i], img: img[i], trailer: trailer[i]});
+      }
     }
   });
 }

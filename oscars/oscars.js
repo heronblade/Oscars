@@ -187,6 +187,10 @@ if (Meteor.isServer) {
         'iszwuX1AK6A',
         'vUQNjfhlREk'
       ];
+
+      for (var i = 0; i < name.length; i++) {
+          directing.insert({name: name[i], img: img[i], trailer: trailer[i]});
+        }
     }
 
     //actor
@@ -212,6 +216,10 @@ if (Meteor.isServer) {
         'pabEtIERlic',
         'fvMPU0WaPcc'
       ];
+
+      for (var i = 0; i < name.length; i++) {
+          actor.insert({name: name[i], img: img[i], trailer: trailer[i]});
+        }
     }
 
     //actress
@@ -244,6 +252,10 @@ if (Meteor.isServer) {
         '9Hd_uO72h1s',
         'C4pcg7bXgmU'
       ];
+
+      for (var i = 0; i < name.length; i++) {
+          actress.insert({name: name[i], img: img[i], trailer: trailer[i]});
+        }
     }
 
     //supporting actor
@@ -276,6 +288,10 @@ if (Meteor.isServer) {
         'pabEtIERlic',
         'vUQNjfhlREk'
       ];
+
+      for (var i = 0; i < name.length; i++) {
+          actorSupp.insert({name: name[i], img: img[i], trailer: trailer[i]});
+        }
     }
 
     //supporting actress
@@ -308,6 +324,10 @@ if (Meteor.isServer) {
         'vUQNjfhlREk',
         'FER3C394aI8'
       ];
+
+      for (var i = 0; i < name.length; i++) {
+          actressSupp.insert({name: name[i], img: img[i], trailer: trailer[i]});
+        }
     }
 
     //original screenplay
@@ -340,6 +360,10 @@ if (Meteor.isServer) {
         'WzV6mXIOVl4',
         'UT5tqPojMtg'
       ];
+
+      for (var i = 0; i < name.length; i++) {
+          writingOriginal.insert({name: name[i], img: img[i], trailer: trailer[i]});
+        }
     }
 
     //adapted screenplay
@@ -372,6 +396,10 @@ if (Meteor.isServer) {
         '4DBPqcp6Hc4',
         'pabEtIERlic'
       ];
+
+      for (var i = 0; i < name.length; i++) {
+          writingAdapted.insert({name: name[i], img: img[i], trailer: trailer[i]});
+        }
     }
 
     //animated feature

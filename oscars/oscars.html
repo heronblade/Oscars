@@ -41,7 +41,31 @@
 	<div class="best-picture-nominee nominee">
 		<span class="name">{{name}}</span>
 		<span class="img">{{img}}</span>
-		<span class="trailer">{{trailer}}</span>
+		<span class="trailer"><a href=""></a>{{trailer}}</span>
+
+		<button class="btn btn-primary" data-toggle="modal" data-target="#khaleesiModal">Order Now</button>
+
+<!-- 		<div class="trailer-popup">
+			<iframe src="http://www.youtube.com/embed/{{trailer}}" width="320" height="240"></iframe>
+		</div> -->
+
+		<div class="modal fade" id="khaleesiModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabelKhaleesi" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						<span class="modal-title" id="myModalLabelKhaleesi">Khaleesi</span>
+					</div>
+					<div class="modal-body">
+						<div class="trailer-popup">
+							<iframe src="http://www.youtube.com/embed/{{trailer}}" width="320" height="240"></iframe>
+						</div>
+					</div>
+				</div><!-- /.modal-content -->
+			</div><!-- /.modal-dialog -->
+		</div><!-- /.modal -->
+
+
 	</div>
 </template>
 

@@ -31,7 +31,7 @@
 
 <!-- Best Picture -->
 <template name="bestPicture">
-	<div class="best-picture">
+	<div class="best-picture nominee-wrap">
 		{{#each nominee}}
 			{{> bestPictureNominee}}
 		{{/each}}
@@ -47,7 +47,7 @@
 
 <!-- Actor -->
 <template name="actor">
-	<div class="actor">
+	<div class="actor nominee-wrap">
 		{{#each nominee}}
 			{{> actorNominee}}
 		{{/each}}
@@ -63,7 +63,7 @@
 
 <!-- Actress -->
 <template name="actress">
-	<div class="actress">
+	<div class="actress nominee-wrap">
 		{{#each nominee}}
 			{{> actressNominee}}
 		{{/each}}
@@ -79,7 +79,7 @@
 
 <!-- Actor Supporting -->
 <template name="actorSupp">
-	<div class="actor-supporting">
+	<div class="actor-supporting nominee-wrap">
 		{{#each nominee}}
 			{{> actorSuppNominee}}
 		{{/each}}
@@ -95,7 +95,7 @@
 
 <!-- Actress Supporting -->
 <template name="actressSupp">
-	<div class="actress-supporting">
+	<div class="actress-supporting nominee-wrap">
 		{{#each nominee}}
 			{{> actressSuppNominee}}
 		{{/each}}
@@ -111,7 +111,7 @@
 
 <!-- Animated Feature Film -->
 <template name="animateFeatFilm">
-	<div class="animated-feature-film">
+	<div class="animated-feature-film nominee-wrap">
 		{{#each nominee}}
 			{{> animateFeatFilmNominee}}
 		{{/each}}
@@ -127,7 +127,7 @@
 
 <!-- Cinematography -->
 <template name="cinematography">
-	<div class="cinematography">
+	<div class="cinematography nominee-wrap">
 		{{#each nominee}}
 			{{> cinematographyNominee}}
 		{{/each}}
@@ -143,7 +143,7 @@
 
 <!-- Costume Design -->
 <template name="costumeDesign">
-	<div class="costume-design">
+	<div class="costume-design nominee-wrap">
 		{{#each nominee}}
 			{{> costumeDesignNominee}}
 		{{/each}}
@@ -159,7 +159,7 @@
 
 <!-- Directing -->
 <template name="directing">
-	<div class="directing">
+	<div class="directing nominee-wrap">
 		{{#each nominee}}
 			{{> directingNominee}}
 		{{/each}}
@@ -175,7 +175,7 @@
 
 <!-- Documentary Feature -->
 <template name="docFeature">
-	<div class="documantary-feature">
+	<div class="documantary-feature nominee-wrap">
 		{{#each nominee}}
 			{{> documentaryFeatureNominee}}
 		{{/each}}
@@ -191,7 +191,7 @@
 
 <!-- Documentary Short -->
 <template name="docShort">
-	<div class="documentary-short">
+	<div class="documentary-short nominee-wrap">
 		{{#each nominee}}
 			{{> documentaryShortNominee}}
 		{{/each}}
@@ -207,7 +207,7 @@
 
 <!-- Film Editing -->
 <template name="filmEditing">
-	<div class="film-editing">
+	<div class="film-editing nominee-wrap">
 		{{#each nominee}}
 			{{> filmEditingNominee}}
 		{{/each}}
@@ -223,7 +223,7 @@
 
 <!-- Foreign Language -->
 <template name="foreignLanguage">
-	<div class="foreign-language">
+	<div class="foreign-language nominee-wrap">
 		{{#each nominee}}
 			{{> foreignLanguageNominee}}
 		{{/each}}
@@ -239,7 +239,7 @@
 
 <!-- Makeup -->
 <template name="makeup">
-	<div class="makeup">
+	<div class="makeup nominee-wrap">
 		{{#each nominee}}
 			{{> makeupNominee}}
 		{{/each}}
@@ -255,7 +255,7 @@
 
 <!-- Music Original Score -->
 <template name="musicOrigScore">
-	<div class="music-original-score">
+	<div class="music-original-score nominee-wrap">
 		{{#each nominee}}
 			{{> musicOriginalScoreNominee}}
 		{{/each}}
@@ -271,7 +271,7 @@
 
 <!-- Music Original Song -->
 <template name="musicOrigSong">
-	<div class="music-original-song">
+	<div class="music-original-song nominee-wrap">
 		{{#each nominee}}
 			{{> musicOriginalSongNominee}}
 		{{/each}}
@@ -287,7 +287,7 @@
 
 <!-- Production Design -->
 <template name="prodDesign">
-	<div class="production-design">
+	<div class="production-design nominee-wrap">
 		{{#each nominee}}
 			{{> productionDesignNominee}}
 		{{/each}}
@@ -303,7 +303,7 @@
 
 <!-- Short Film Animated -->
 <template name="shortFilmAnimated">
-	<div class="short-film-animated">
+	<div class="short-film-animated nominee-wrap">
 		{{#each nominee}}
 			{{> shortFilmAnimatedNominee}}
 		{{/each}}
@@ -319,7 +319,7 @@
 
 <!-- Short Film Live Action -->
 <template name="shortFilmLiveAction">
-	<div class="short-film-live-action">
+	<div class="short-film-live-action nominee-wrap">
 		{{#each nominee}}
 			{{> shortFilmLiveActionNominee}}
 		{{/each}}
@@ -335,7 +335,7 @@
 
 <!-- Sound Editing -->
 <template name="soundEditing">
-	<div class="sound-editing">
+	<div class="sound-editing nominee-wrap">
 		{{#each nominee}}
 			{{> soundEditingNominee}}
 		{{/each}}
@@ -351,7 +351,7 @@
 
 <!-- Sound Mixing -->
 <template name="soundMixing">
-	<div class="sound-mixing">
+	<div class="sound-mixing nominee-wrap">
 		{{#each nominee}}
 			{{> soundMixingNominee}}
 		{{/each}}
@@ -367,7 +367,7 @@
 
 <!-- Visual Effects -->
 <template name="visualEffects">
-	<div class="visual-effects">
+	<div class="visual-effects nominee-wrap">
 		{{#each nominee}}
 			{{> visualEffectsNominee}}
 		{{/each}}
@@ -383,7 +383,7 @@
 
 <!-- Writing Adapted -->
 <template name="writingAdapted">
-	<div class="writing-adapted">
+	<div class="writing-adapted nominee-wrap">
 		{{#each nominee}}
 			{{> writingAdaptedNominee}}
 		{{/each}}
@@ -399,7 +399,7 @@
 
 <!-- Writing Original -->
 <template name="writingOriginal">
-	<div class="writing-original">
+	<div class="writing-original nominee-wrap">
 		{{#each nominee}}
 			{{> writingOriginalNominee}}
 		{{/each}}

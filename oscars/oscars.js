@@ -25,6 +25,9 @@ writingAdapted = new Meteor.Collection('writingAdapted');
 writingOriginal = new Meteor.Collection('writingOriginal');
 
 if (Meteor.isClient) {
+
+
+
   Template.bestPicture.nominee = function() {
     return bestPicture.find();
   }

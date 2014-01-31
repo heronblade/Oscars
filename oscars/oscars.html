@@ -3,36 +3,56 @@
 </head>
 
 <body>
-{{loginButtons}}
-  {{josh bestPicture}}
-  {{josh actor}}
-  {{josh actress}}
-  {{josh actorSupp}}
-  {{josh actressSupp}}
-  {{josh animateFeatFilm}}
-  {{josh cinematography}}
-  {{josh costumeDesign}}
-  {{josh directing}}
-  {{josh docFeature}}
-  {{josh docShort}}
-  {{josh filmEditing}}
-  {{josh foreignLanguage}}
-  {{josh makeup}}
-  {{josh musicOrigScore}}
-  {{josh musicOrigSong}}
-  {{josh prodDesign}}
-  {{josh shortFilmAnimated}}
-  {{josh shortFilmLiveAction}}
-  {{josh soundEditing}}
-  {{josh soundMixing}}
-  {{josh visualEffects}}
-  {{josh writingAdapted}}
-  {{josh writingOriginal}}
+	<div id="content">
+		{{> login}}
+
+		{{josh bestPicture}}
+		{{josh actor}}
+		{{josh actress}}
+		{{josh actorSupp}}
+		{{josh actressSupp}}
+		{{josh animateFeatFilm}}
+		{{josh cinematography}}
+		{{josh costumeDesign}}
+		{{josh directing}}
+		{{josh docFeature}}
+		{{josh docShort}}
+		{{josh filmEditing}}
+		{{josh foreignLanguage}}
+		{{josh makeup}}
+		{{josh musicOrigScore}}
+		{{josh musicOrigSong}}
+		{{josh prodDesign}}
+		{{josh shortFilmAnimated}}
+		{{josh shortFilmLiveAction}}
+		{{josh soundEditing}}
+		{{josh soundMixing}}
+		{{josh visualEffects}}
+		{{josh writingAdapted}}
+		{{josh writingOriginal}}
+	</div>
+
 
 
 </body>
 
 
+<!-- Login -->
+<template name="login">
+	{{ loginButtons}}
+<!-- 	<form id="login">
+		<h1>Log In</h1>
+		<fieldset id="inputs">
+			<input id="username" type="text" placeholder="Username" autofocus="" required="">
+			<input id="password" type="password" placeholder="Password" required="">
+		</fieldset>
+		<fieldset id="actions">
+			<input type="submit" id="submit" value="Log in">
+			<a href="">Forgot your password?</a><a href="">Register</a>
+		</fieldset>
+	</form> -->
+
+</template>
 
 
 

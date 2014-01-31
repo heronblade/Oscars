@@ -12,10 +12,6 @@ less
 jquery
 accounts-ui
 accounts-password
-accounts-facebook
-accounts-github
 accounts-google
-accounts-meetup
-accounts-twitter
-accounts-weibo
 accounts-base
+accounts-facebook

@@ -1,19 +1,34 @@
-if (Meteor.isClient) {
-  Template.hello.greeting = function () {
-    return "Welcome to rooms.";
-  };
+//collections
+rooms = new Meteor.Collection('rooms');
 
-  Template.hello.events({
-    'click input' : function () {
-      // template data, if any, is available in 'this'
-      if (typeof console !== 'undefined')
-        console.log("You pressed the button");
-    }
-  });
+if (Meteor.isClient) {
+
+  Template.chooseARoom.room = function() {
+    return rooms.find();
+  }
+
 }
 
 if (Meteor.isServer) {
   Meteor.startup(function () {
-    // code to run on server at startup
+
+    rooms.remove({});
+    // if (rooms.find().count() === 0) {
+    //   var name = [
+    //     'josh', 'joe', 'rach', 'liz'
+    //   ];
+
+    //   var occupants = [
+    //     'me', 'you', 'them', 'us'
+    //   ];
+
+    //   var age = [
+    //     '2', '12', '234324', '2342343421234'
+    //   ];
+
+    //   for (var i = 0; i < name.length; i++) {
+    //     rooms.insert({name: name[i], occupants: occupants[i], age: age[i]});
+    //   }
+    // }
   });
 }

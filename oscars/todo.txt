@@ -1,0 +1,9 @@
+I have to come up with some way of having people be able to create rooms that they can share with their friends. So now instead of logging in first, the user will be prompted to eitehr join an existing room, or create a room.
+
+If they decide to join a room, there can be public or private rooms.
+	Public rooms anyone can join
+	Private rooms will require a password to enter
+
+Each room will be listening to my changes to the correct answer collection, and updating everything else from there.
+
+Room creation needs to be taken care of in such a way that all other rooms don't know about each other, and they don't share each other's information.  Once this step's taken care of, we should be pretty much finished with the backend side of things, and can settle down and take care of the design

@@ -9,10 +9,14 @@ if (Meteor.isClient) {
 	});
 
 	function userIsLoggedIn() {
-		
+
+		$('#login-background').fadeOut(500, function() {
+			$('#permanent-header').fadeIn('slow');
+		});
+
 	}
 }
 
 if (Meteor.isServer) {
-	
+
 }

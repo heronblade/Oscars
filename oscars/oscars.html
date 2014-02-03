@@ -4,9 +4,41 @@
 
 <body>
 	<div id="content">
+		
+		<div id="permanent-header">
+			
+		</div>
+
 		<div id="login-background">
 			{{> login}}
 		</div>
+
+		<div class="best-picture nominee-wrap">
+			<div class="best-picture-nominee nominee">
+				<h4 class="name">The Wolf of Wall Street</h4>
+				<img src="/images/picture/the-wolf-of-wall-street.jpg" alt="..." class="img-thumbnail">
+				<button class="btn btn-primary" data-toggle="modal" data-target="#khaleesiModal">Trailer</button>
+				<div class="modal fade" id="khaleesiModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabelKhaleesi" aria-hidden="true">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+								<span class="modal-title" id="myModalLabelKhaleesi">Khaleesi</span>
+							</div>
+							<div class="modal-body">
+								<div class="trailer-popup">
+									<iframe src="http://www.youtube.com/embed/{{trailer}}" width="320" height="240"></iframe>
+								</div>
+							</div>
+						</div><!-- /.modal-content -->
+					</div><!-- /.modal-dialog -->
+				</div><!-- /.modal -->
+			</div>
+		</div>
+
+
+
+
 		
 
 		{{josh bestPicture}}

@@ -3,8 +3,15 @@
 </head>
 
 <body>
-  {{> chooseARoom}}
+	{{ loginButtons}}
+	
+	{{> image}}
+  {{josh chooseARoom}}
 </body>
+
+<template name="image">
+	<img src="{{profileImage}}"/>
+</template>
 
 <template name="chooseARoom">
 	<div id="rooms">

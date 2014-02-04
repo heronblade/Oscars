@@ -29,3 +29,22 @@ The first time coming to the site.
 		b. If you haven't made your picks
 			I. If it's before the oscars start, you'll be able to make your picks
 			II. If it's after the oscars start, you'll be notified that the oscars have already started, and then routed to the leaderboard page
+	5. Leaderboard
+		a. This page will show the leader of the room you are currently in
+
+
+Collections
+
+	1. Rooms
+		a. Each room will have a list of users subscribed to it, a unique id, a room creator,
+		b. Room{ id : 1, users : {1, 2, 444}, creator: 444}
+	2. Users
+		a. The user will have a unique id, facebook information, password, the rooms they are subscribed to, and their picks
+		b. User{ id : 1, password : 'password', rooms : {1, 333, 4522}, picks : {'bestPicture': 'Her', 'director': 'Alfonso Cuaron'}}
+	3. Winners
+		a. Have a list of all the nominees, and then I'll add in the correct answers to each one so each nominee should look like this
+		b. bestPicture: '12 Years A Slave'
+	4. Each nominee
+		a. name - string
+		b. img - string
+		c. trailer - string

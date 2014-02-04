@@ -1,11 +1,36 @@
 //collections
 rooms = new Meteor.Collection('rooms');
 
+
 if (Meteor.isClient) {
+
+    Deps.autorun(function (user) {
+        if (Meteor.user()) {
+            user.stop();
+            userIsLoggedIn();
+        } else {
+            userIsLoggedOut();
+        }
+    });
+
+    function userIsLoggedIn() {
+        var profileImage = "http://graph.facebook.com/" + Meteor.user().services.facebook.id + "/picture/?type=large";
+        Meteor.users.update({_id:Meteor.user()._id}, {$set:{"profile.profileImage":profileImage}});
+        // Meteor.user().profile.profileImage = profileImage;
+    }
+
+    function userIsLoggedOut() {
+        console.log('user is logged out');
+    }
 
   Template.chooseARoom.room = function() {
     return rooms.find();
   }
+
+  Template.image.profileImage = function() {
+    return Meteor.user().profile.profileImage;
+  }
+
 
 }
 

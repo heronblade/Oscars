@@ -7,3 +7,25 @@ If they decide to join a room, there can be public or private rooms.
 Each room will be listening to my changes to the correct answer collection, and updating everything else from there.
 
 Room creation needs to be taken care of in such a way that all other rooms don't know about each other, and they don't share each other's information.  Once this step's taken care of, we should be pretty much finished with the backend side of things, and can settle down and take care of the design
+
+
+The first time coming to the site.
+
+	1. There will be a login screen.
+	2. Users will login using facebook (because I want to use profile pictures)
+	3. After logging in, a room choosing screen will be shown
+		a. Create a room
+			I. Click the create a room button, and you'll be presented with a form to create a room
+				i. enter room name
+				ii. enter room password
+			II. Then it's up to the creater of the room to tell their friends about it
+		b. Join a room
+			I. Select room to join
+			II. Enter room password
+	4. After choosing or creating a room, then
+		a. If you have already made all your picks
+			I. If it's before the oscars start, you will be shown the change picks button
+			II. If it's after the oscars start, you'll be shown the leaderboard for your room
+		b. If you haven't made your picks
+			I. If it's before the oscars start, you'll be able to make your picks
+			II. If it's after the oscars start, you'll be notified that the oscars have already started, and then routed to the leaderboard page

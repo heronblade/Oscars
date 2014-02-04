@@ -28,7 +28,7 @@ if (Meteor.isClient) {
   }
 
   Template.image.profileImage = function() {
-    return Meteor.user().profile.profileImage;
+    //return Meteor.user().profile.profileImage;
   }
 
 

@@ -20,7 +20,7 @@ if (Meteor.isClient) {
     }
 
     function userIsLoggedOut() {
-        // console.log('user is logged out');
+        console.log('user is logged out');
     }
 
     Template.chooseARoom.room = function() {
@@ -31,17 +31,27 @@ if (Meteor.isClient) {
         if (Meteor.user()) {
             var profileImage = Meteor.user().profile.profileImage;
             return profileImage;
-        }  
+        }
     }
 
     Template.createARoom.events({
         'click .create-a-room-submit': function() {
-            console.log('cliecklkajsdf');
+            //store the room name and room password
             var roomName = $('#roomName').val();
             var roomPassword = $('#roomPassword').val();
-            console.log(roomName + ' : ' + roomPassword);
+
+            //if both of them are not blank, insert them into the room collection
+            if (roomName !== '' && roomPassword !== '') {
+                rooms.insert({name: roomName, password: roomPassword, subs: Meteor.user()._id});
+                // Meteor.users.update({_id:Meteor.user()._id}, {$set:{'profile.rooms':roomName}});
+                Meteor.users.update(Meteor.userId(), { $add: {'profile.rooms':roomName}});
+                console.log(rooms);
+            }
+
+            //hide the create a room
+            $('#create-a-room').fadeOut('400');
         }
-    })
+    });
 
 
 }

@@ -44,7 +44,11 @@ if (Meteor.isClient) {
             if (roomName !== '' && roomPassword !== '') {
                 rooms.insert({name: roomName, password: roomPassword, subs: Meteor.user()._id});
                 // Meteor.users.update({_id:Meteor.user()._id}, {$set:{'profile.rooms':roomName}});
-                Meteor.users.update(Meteor.userId(), { $add: {'profile.rooms':roomName}});
+                // Meteor.users.update(Meteor.userId(), { $add: {'profile.rooms':roomName}});
+                Meteor.users.update(Meteor.userId(), {$addToSet: {'profile.test': roomName}});
+
+                // Players.update({score: {$gt: 10}}, {$addToSet: {badges: "Winner"}},  {multi: true});
+
                 console.log(rooms);
             }
 

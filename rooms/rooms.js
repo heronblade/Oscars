@@ -28,6 +28,8 @@ if (Meteor.isClient) {
   }
 
   Template.image.profileImage = function() {
+    var profileImage = Meteor.user().profile.profileImage;
+    return profileImage;
     //return Meteor.user().profile.profileImage;
   }
 

@@ -20,7 +20,7 @@ if (Meteor.isClient) {
     }
 
     function userIsLoggedOut() {
-        console.log('user is logged out');
+        // console.log('user is logged out');
     }
 
     Template.chooseARoom.room = function() {
@@ -33,6 +33,15 @@ if (Meteor.isClient) {
             return profileImage;
         }  
     }
+
+    Template.createARoom.events({
+        'click .create-a-room-submit': function() {
+            console.log('cliecklkajsdf');
+            var roomName = $('#roomName').val();
+            var roomPassword = $('#roomPassword').val();
+            console.log(roomName + ' : ' + roomPassword);
+        }
+    })
 
 
 }

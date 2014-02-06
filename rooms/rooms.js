@@ -6,7 +6,6 @@ if (Meteor.isClient) {
 
     Deps.autorun(function (user) {
         if (Meteor.user()) {
-            user.stop();
             userIsLoggedIn();
         } else {
             userIsLoggedOut();
@@ -20,7 +19,7 @@ if (Meteor.isClient) {
     }
 
     function userIsLoggedOut() {
-        console.log('user is logged out');
+        $('#rooms').fadeOut('slow');
     }
 
     Template.chooseARoom.room = function() {
@@ -39,6 +38,10 @@ if (Meteor.isClient) {
             //store the room name and room password
             var roomName = $('#roomName').val();
             var roomPassword = $('#roomPassword').val();
+            $('#roomName').val('');
+            $('#roomPassword').val('');
+
+            console.log('room name: ' + roomName); console.log('room pass ' + roomPassword);
 
             //if both of them are not blank, insert them into the room collection
             if (roomName !== '' && roomPassword !== '') {
@@ -46,20 +49,18 @@ if (Meteor.isClient) {
                 //make the room name unique.  search through room collection to see if room already
                 //exists. if it does tell user, if it doesn't create it and add current user to subs array.
                 var isTheRoomThere = rooms.find({name: roomName}).fetch();
-                console.log(typeof isTheRoomThere);
                 if ($.isEmptyObject(isTheRoomThere)) {
-                    alert('This room has already been created. Please choose another name');
-                } else {
                     rooms.insert({name: roomName, password: roomPassword, subs: Meteor.userId()});
+                    //hide the create a room
+                    // $('#create-a-room').fadeOut('400');
+                } else {
+                    alert('This room has already been created. Please choose another name');
                 }
 
                 Meteor.users.update(Meteor.userId(), {$addToSet: {'profile.test': roomName}});
 
                 console.log(rooms);
             }
-
-            //hide the create a room
-            $('#create-a-room').fadeOut('400');
         }
     });
 

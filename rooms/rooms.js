@@ -19,6 +19,7 @@ if (Meteor.isClient) {
     }
 
     function userIsLoggedOut() {
+        console.log('not logged in ');
         $('#rooms').fadeOut('slow');
     }
 
@@ -61,6 +62,17 @@ if (Meteor.isClient) {
 
                 console.log(rooms);
             }
+        }
+    });
+
+    //Clicking on a room name
+    Template.chooseARoom.events({
+        'click .go-to-room': function(event) {
+            var buttonClicked = event.currentTarget;
+            var buttonData = $(buttonClicked).data();
+            console.log(buttonData);
+            // var dataRoom = $(this).attr('data-room');
+            // console.log('dataRoom ' + dataRoom);
         }
     });
 

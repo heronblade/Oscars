@@ -42,7 +42,17 @@ if (Meteor.isClient) {
 
             //if both of them are not blank, insert them into the room collection
             if (roomName !== '' && roomPassword !== '') {
-                rooms.insert({name: roomName, password: roomPassword, subs: Meteor.user()._id});
+
+                //TODO: make the room name unique.  search through room collection to see if room already
+                //exists. if it does tell user, if it doesn't create it and add current user to subs array.
+
+                if (rooms.find({name: 'josh'})) {
+                    console.log('already');
+                    alert('This room has already been created. Please choose another name');
+                } else {
+                    rooms.insert({name: roomName, password: roomPassword, subs: Meteor.userId()});
+                }
+                
 
                 //TODO: make this the room id, not name;
                 Meteor.users.update(Meteor.userId(), {$addToSet: {'profile.test': roomName}});
@@ -61,7 +71,7 @@ if (Meteor.isClient) {
 if (Meteor.isServer) {
   Meteor.startup(function () {
 
-    rooms.remove({});
+    // rooms.remove({});
     // if (rooms.find().count() === 0) {
     //   var name = [
     //     'josh', 'joe', 'rach', 'liz'

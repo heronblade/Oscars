@@ -69,7 +69,7 @@ if (Meteor.isClient) {
     Template.chooseARoom.events({
         'click .go-to-room': function(event) {
             var buttonClicked = event.currentTarget;
-            var buttonData = $(buttonClicked).data();
+            var buttonData = $(buttonClicked).data().room;
             console.log(buttonData);
             // var dataRoom = $(this).attr('data-room');
             // console.log('dataRoom ' + dataRoom);

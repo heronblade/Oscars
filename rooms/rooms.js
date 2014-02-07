@@ -21,6 +21,7 @@ if (Meteor.isClient) {
     function userIsLoggedOut() {
         console.log('not logged in ');
         $('#rooms').fadeOut('slow');
+        // $('#create-a-rooom').css('display', 'none');
     }
 
     Template.chooseARoom.room = function() {
@@ -52,8 +53,7 @@ if (Meteor.isClient) {
                 var isTheRoomThere = rooms.find({name: roomName}).fetch();
                 if ($.isEmptyObject(isTheRoomThere)) {
                     rooms.insert({name: roomName, password: roomPassword, subs: Meteor.userId()});
-                    //hide the create a room
-                    // $('#create-a-room').fadeOut('400');
+
                 } else {
                     alert('This room has already been created. Please choose another name');
                 }
@@ -70,9 +70,9 @@ if (Meteor.isClient) {
         'click .go-to-room': function(event) {
             var buttonClicked = event.currentTarget;
             var buttonData = $(buttonClicked).data().room;
-            console.log(buttonData);
-            // var dataRoom = $(this).attr('data-room');
-            // console.log('dataRoom ' + dataRoom);
+            
+            //hide the create-a-rooom div
+            $('#create-a-rooom').fadeOut('400');
         }
     });
 

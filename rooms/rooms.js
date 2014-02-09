@@ -35,6 +35,14 @@ if (Meteor.isClient) {
         }
     }
 
+    Template.createARoom.rendered = function() {
+        if (Meteor.user()) {
+            userIsLoggedIn();
+        } else {
+            userIsLoggedOut();
+        }
+    }
+
     Template.createARoom.events({
         'click .create-a-room-submit': function() {
             //store the room name and room password
@@ -70,9 +78,11 @@ if (Meteor.isClient) {
         'click .go-to-room': function(event) {
             var buttonClicked = event.currentTarget;
             var buttonData = $(buttonClicked).data().room;
+            console.log('lkajcpiaj');
             
             //hide the create-a-rooom div
             $('#create-a-rooom').fadeOut('400');
+            $('#create-a-rooom').hide();
         }
     });
 

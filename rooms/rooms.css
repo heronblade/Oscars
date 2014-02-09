@@ -1,8 +1,8 @@
 /* CSS declarations go here */
 #rooms {
-	/*display: none;*/
+	display: none;
 }
 
 .room {
-	float: left;
+	/*float: left;*/
 }
